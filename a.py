@@ -1,6 +1,6 @@
 from stem import Signal
 from stem.control import Controller
-
+import os
 def change_identity():
     try:
         with Controller.from_port(port=9051) as controller:
