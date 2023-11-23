@@ -13,6 +13,6 @@ def change_identity():
 if __name__ == "__main__":
     change_identity()
     a=os.system("torify curl http://icanhazip.com/")
-    print(a)
+    print(a) 
 
 
